@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: gainsboro;
+}
+/* Desktop Properties */
+h1.primary {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 600;
+  color: rgb(83, 1, 83);
+}
+h1#title {
+  text-align: center;
+  margin-top: 6px;
+}
+p {
+  color: black;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+span {
+  font-weight: bold;
+}
+div.content p {
+  margin: 20px 20px 0px 20px;
+}
+div.image img {
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin: 15px auto 0px auto;
+}
+div.image p#image {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(100, 1, 100);
+  font-size: 28px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+div.btn button a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 32px;
+  padding: 20px;
+}
+div.btn button {
+  background-color: rgb(100, 1, 100);
+  border: none;
+  border-radius: 30px;
+  margin: 10px 0px 0px 0px;
+}
+div.btn button:hover
+{
+  background-color: rgb(159, 10, 228);
+}
+div.btn {
+  text-align: center;
+}
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+footer p {
+  background-color: rgb(100, 1, 100);
+  color: white;
+  padding: 20px 0;
+}
+footer p a {
+  padding: 20px 0;
+  color: white;
+  text-decoration: none;
+}
+
+/* Tablet Version Ipad Mozilla FireFox Css */
+@media screen and (max-width:810px) 
+{
+  h1#title
+  {
+    font-size: 36px;
+  }
+  p
+  {
+    font-size: 18px;
+  }
+  footer p a 
+  {
+    font-size: 14px;
+  }
+  footer p 
+  {
+    font-size: 14px;
+  }
+  div.btn button a 
+  {
+    font-size: 28px;
+  }
+  div.image p#image
+  {
+    font-size: 24px;
+  }
+}
+/* Media Querry For Iphone 6,7,8,Xs,Xs Max */
+@media screen and (max-width:375px)
+{
+  h1#title
+  {
+    font-size: 24px;
+  }
+  p
+  {
+    font-size: 14px;
+  }
+  div.image p#image
+  {
+    font-size: 18px;
+  }
+  div.btn button a 
+  {
+    font-size: 14px;
+  }
+  footer p a 
+  {
+    font-size: 8px;
+  }
+  footer p 
+  {
+    font-size: 8px;
+  }
+}
+/* Ipgone 6,7,8 plus */
+@media screen and (max-width:414px)
+{
+  h1#title
+  {
+    font-size: 24px;
+  }
+  p
+  {
+    font-size: 14px;
+  }
+  div.image p#image
+  {
+    font-size: 16px;
+  }
+  div.btn button a 
+  {
+    font-size: 16px;
+  }
+  footer p a 
+  {
+    font-size: 10px;
+  }
+  footer p 
+  {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:360px)
+{
+  div.btn button a 
+  {
+    font-size: 14px;
+  }
+}
